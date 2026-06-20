@@ -1,13 +1,17 @@
-import type { ReactNode, ButtonHTMLAttributes, AnchorHTMLAttributes } from 'react';
+import type { ReactNode } from 'react';
 
 type ButtonVariant = 'primary' | 'secondary' | 'outline';
 
-type ButtonProps = (ButtonHTMLAttributes<HTMLButtonElement> | AnchorHTMLAttributes<HTMLAnchorElement>) & {
+interface ButtonBaseProps {
   children: ReactNode;
   variant?: ButtonVariant;
   className?: string;
-  as?: 'button' | 'a';
-};
+}
+
+type ButtonProps = ButtonBaseProps & (
+  | { as?: 'button'; [key: string]: any }
+  | { as: 'a'; href: string; [key: string]: any }
+);
 
 export default function Button({ 
   children, 
