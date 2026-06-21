@@ -16,10 +16,13 @@ export default function Hero() {
               Content Writer | Copywriter | Brand Storyteller
             </p>
             <p className="text-2xl font-serif italic text-neutral-800 mb-8">
-              Turning ideas into words people connect with.
+              "Turning ideas into words people connect with."
             </p>
             <p className="text-neutral-700 mb-10 leading-relaxed">
-              "Words are more than sentences. They are how brands tell their stories, how businesses build trust, and how ideas move people to take action. I help brands, creators, and businesses communicate clearly through engaging content, thoughtful storytelling, and persuasive writing."
+              "Words are more than sentences. They are how brands tell their stories, how businesses build trust, and how ideas move people to take action."
+            </p>
+            <p className="text-neutral-700 mb-10 leading-relaxed">
+              "I help brands, creators, and businesses communicate clearly through engaging content, thoughtful storytelling, and persuasive writing."
             </p>
             <Button as="a" href="#contact">
               Let's Connect
