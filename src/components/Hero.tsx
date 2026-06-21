@@ -33,7 +33,7 @@ export default function Hero() {
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-neutral-900 rounded-lg"></div>
               <div className="relative w-full aspect-[3/4] bg-neutral-200 rounded-lg flex items-center justify-center overflow-hidden">
                 <img 
-                  src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=professional%20portrait%20of%20a%20confident%20Black%20woman%20writer%20in%20elegant%20attire%2C%20warm%20lighting%2C%20editorial%20style&image_size=portrait_4_3" 
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop" 
                   alt="Nkiruka Beatrice Okoro" 
                   className="w-full h-full object-cover"
                 />

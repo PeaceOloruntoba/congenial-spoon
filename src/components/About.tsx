@@ -2,15 +2,15 @@ import { useState, useEffect } from 'react';
 
 const images = [
   {
-    src: "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=professional%20portrait%20of%20a%20confident%20Black%20woman%20writer%20in%20elegant%20attire%2C%20warm%20lighting%2C%20editorial%20style&image_size=square",
+    src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
     alt: "Professional portrait"
   },
   {
-    src: "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=writer%20working%20at%20desk%20with%20laptop%20and%20notebook%2C%20cozy%20home%20office%2C%20warm%20tones&image_size=square",
+    src: "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=400&h=400&fit=crop",
     alt: "Writer at work"
   },
   {
-    src: "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=close%20up%20of%20hands%20writing%20in%20notebook%2C%20pen%20and%20paper%2C%20editorial%20aesthetic&image_size=square",
+    src: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=400&fit=crop",
     alt: "Writing process"
   }
 ];
