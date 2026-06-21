@@ -1,4 +1,4 @@
-import { Mail, ExternalLink } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import Button from './ui/Button';
 
 export default function Contact() {
@@ -14,11 +14,11 @@ export default function Contact() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button as="a" href="mailto:beatrice55okoro@gmail.com">
             <Mail size={20} />
-            Get in Touch
+            beatrice55okoro@gmail.com
           </Button>
-          <Button variant="outline" as="a" href="https://example.com" target="_blank" rel="noopener noreferrer">
-            View Portfolio
-            <ExternalLink size={20} />
+          <Button variant="outline" as="a" href="tel:+2349165314284">
+            <Phone size={20} />
+            +2349165314284
           </Button>
         </div>
       </div>
