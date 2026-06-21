@@ -15,7 +15,7 @@ export const works: Work[] = [
     category: "Editorial Article",
     type: "pdf",
     summary: "A magazine-style article exploring how emotional connection, storytelling, and authenticity shape modern brands.",
-    path: "/works/work1.pdf", // Placeholder path - replace with your actual file
+    path: "/works/work1.PDF", // Placeholder path - replace with your actual file
     fullContent: `
       <h3 class="text-2xl font-serif font-bold mb-4">Introduction</h3>
       <p class="mb-4 leading-relaxed">In today's crowded marketplace, brands that stand out are not just selling products—they're selling feelings. This article explores how emotional connection, storytelling, and authenticity shape the brands we remember and love.</p>
@@ -31,7 +31,7 @@ export const works: Work[] = [
     category: "Marketing Email",
     type: "pdf",
     summary: "A persuasive email campaign combining humor, emotion, and a strong call-to-action to encourage customer engagement.",
-    path: "/works/work2.pdf", // Placeholder path - replace with your actual file
+    path: "/works/work2.PDF", // Placeholder path - replace with your actual file
     fullContent: `
       <h3 class="text-2xl font-serif font-bold mb-4">Subject: Your Future Self Just Sent You A Reminder</h3>
       <p class="mb-4 leading-relaxed">Hi [Name],</p>
@@ -46,7 +46,7 @@ export const works: Work[] = [
     category: "Brand Story",
     type: "pdf",
     summary: "A luxury-inspired brand story showing how storytelling can transform a product into an experience.",
-    path: "/works/work3.pdf", // Placeholder path - replace with your actual file
+    path: "/works/work3.PDF", // Placeholder path - replace with your actual file
     fullContent: `
       <h3 class="text-2xl font-serif font-bold mb-4">The LUMÉE Journey</h3>
       <p class="mb-4 leading-relaxed">LUMÉE is more than a brand—it's a philosophy of beauty, grace, and self-discovery. This brand story takes readers on a journey from the brand's humble beginnings to its position as a symbol of elegance and refinement.</p>
